@@ -1,13 +1,3 @@
-<?php
-require_once 'vendor/autoload.php';
-session_start();
-include 'facebook.php';
-
-$helper = $fb->getRedirectLoginHelper();
-$permissions = ['email', 'user_likes']; // optional
-$loginUrl = $helper->getLoginUrl('http://localhost/nieuw/school/year2/period3/PROJ/facebook/workfiles/?action=onepage', $permissions);
-?>
-
 
 
 <div class='container-fluid'>

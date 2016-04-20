@@ -5,4 +5,5 @@ define('DB_NAME','user_data');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','');
 
-$mysqli = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+//$mysqli = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+?>
