@@ -17,7 +17,9 @@ switch ($action) {
         break;
 
     case 'virtual-forrest':
-        
+        include 'app/models/check.php';
+        include 'app/models/getTree.php';
+        include 'app/views/virtual-forrest.php';
         break;
 
     default:
