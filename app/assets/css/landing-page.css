@@ -1,6 +1,6 @@
 .align-mid {
     position: fixed;
-    top: 35%;
+    top: 25%;
     left: 50%;
     margin-top: -50px;
     margin-left: -100px;
@@ -8,16 +8,48 @@
 
 img.logo {
     padding-bottom: 20px;
+
 }
 
 .logo {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 30px;
     margin-bottom: 10px;
     margin-left: -20px;
+    width: 240px;
 }
 
-.button img {
-    width: 240px;
-    margin-left: -20px;
+.button-login img {
+    width: 300px;
+
+}
+
+.story-login {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: -195px;
+    padding: 20px;
+    width: 600px;
+}
+
+.text-login p {
+    width: 300px;
+    font-size: 18px;
+    font-family: Firasans;
+    font-weight: bold;
+}
+
+.child-login img {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: -230px;
+}
+
+.child-login p {
+    float: right;
+    margin-right: 85px;
+    margin-top: -20px;
+    font-family: Firasans;
+    font-size: 22px;
 }

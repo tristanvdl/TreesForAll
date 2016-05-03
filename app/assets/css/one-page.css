@@ -7,20 +7,49 @@ html {
     height: 100%;
 }
 
+@font-face {
+    font-family: Firasans;
+    src: url('../fonts/FiraSans-Light.otf');
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url('../fonts/BebasNeue.otf');
+}
+
+h1 {
+    font-family: Bebas;
+    font-size: 45px;
+}
+
+h3 {
+    font-family: Firasans;
+}
+
 /* DONATE BUTTON */
 .donate-button-parent {
     float: right;
-    margin-right: 150px;
+    width: 300px;
     margin-top: 10px;
+    margin-right: -160px;
+}
+
+.fb_iframe_widget{
+    display: inline-block;
+    position: fixed!important;
+    z-index: 1;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .donate-button-child a {
     position: fixed;
-    background-color: #00A8EF;
+    background-color:  #F7A814;
     color: white;
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 22px;
+    font-size: 30px;
+    margin-left: -180px;
     z-index: 1;
     width: auto;
     text-decoration: none;
@@ -28,15 +57,19 @@ html {
 }
 
 .donate-button-child a:hover {
-    background-color: #00a0d2;
+    background-color: #005477;
 }
 
 /* WELCOME SCREEN */
 #section1 {
-    background: url('../../images/bg2.jpg');
+    background: url('../../images/bg2.JPG');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
+
+.name-jose {
+  text-align: center;
 }
 
 .intro {
@@ -64,7 +97,7 @@ html {
     max-width: 600px;
     padding: 10px;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .profile-pic {
@@ -80,8 +113,9 @@ html {
     margin-top: 15px;
 }
 
-.welcome-text {
+.welcome-text h3 {
     color: #00A8EF;
+    font-weight: bold;
 }
 
 .name {
@@ -99,7 +133,7 @@ html {
     position: absolute;
     top: 20px;
     display: block;
-    bottom: 30px;
+    bottom: 40px;
     background-color: #00A8EF;
     height: 100%;
     left: 50%;
@@ -107,9 +141,7 @@ html {
     padding: 0;
 }
 
-.story {
 
-}
 
 .image1 img {
     width: 600px;
@@ -138,13 +170,13 @@ html {
     overflow-x: hidden;
 }
 
-.text1 {
+.text {
     margin-left: 110px;
-    margin-top: 145px;
+    margin-top: 100px;
     margin-right: 110px;
 }
 
-.text1 h3 {
+.text h3 {
     font-size: 28px;
 }
 
@@ -160,36 +192,137 @@ html {
     padding: 0;
 }
 
-.text2 {
-    margin-left: 110px;
-    margin-right: 110px;
-    margin-top: 145px;
+.image img {
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin-top: 30px;
 }
 
-.text2 h3 {
-    font-size: 28px;
-}
-
-.image2 img {
-    width: 600px;
-    height: 600px;
-    border-radius: 300px;
-    float: left;
+.imageSpecial img {
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    float: right;
     margin-top: 30px;
 }
 
 /* FACTS */
 .facts {
     width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
     background-color: #00A8EF;
 }
 
 .facts-header-text {
+    padding-top: 20px;
     text-align: center;
     color: white;
 }
 
+.facts-text {
+    color: white;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 40px
+}
 
+/* BOY */
+.imageBoy img {
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+    float: right;
+    margin-top: 30px;
+}
 
+.textBoy {
+    margin-left: -100px;
+    margin-top: 120px;
+    margin-right: 110px;
+    background-color: #00A8EF;
+    padding: 20px;
+}
 
+.textBoy h3 {
+    font-size: 28px;
+    color: white
+}
 
+/* REFERAL SECTION */
+.donation {
+    position: relative;
+    padding-top: 20px;
+}
+
+.background {
+    background-color: #00A8EF;
+    height: auto;
+}
+
+.header-donate {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.line-container-white {
+    position: relative;
+}
+
+.line-container-white:before {
+    position: absolute;
+    top: 30px;
+    display: block;
+    bottom: 0px;
+    background-color: white;
+    height: 73%;
+    left: 50%;
+    width: 2px;
+    padding: 0;
+}
+
+.button-virtual {
+    font-family: Firasans;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    margin-top: 80px;
+    width: 500px;
+    font-size: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #F7A814;
+    border-radius: 10px;
+    color: white;
+}
+
+.button {
+    font-family: Firasans;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F7A814;
+    border-radius: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.line {
+    display: none;
+}

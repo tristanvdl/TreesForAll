@@ -1,0 +1,101 @@
+/* UPPER SECTION */
+
+.user-name {
+    text-align: center;
+    margin-left: -20px;
+}
+
+.tree {
+    width: auto;
+    display: inline-block;
+}
+
+
+.button-forrest {
+    font-family: Firasans;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    margin-top: 80px;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F7A814;
+    border-radius: 5px;
+    color: white;
+}
+
+.image-tree img {
+    width: 250px;
+}
+
+.logo-tree {
+    margin-left: 80px;
+}
+
+.wrapper-plant {
+    width: 100%;
+}
+
+.trees-amount {
+    font-family: Firasans;
+    float: right;
+    background-color: #00A8EF;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.tree-clicked {
+    text-align: center;
+    width: 100%;
+}
+
+.tree-clicked a {
+    font-family: Firasans;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    margin-top: 30px;
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F7A814;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.button-forrest-clicked {
+    font-family: Firasans;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F7A814;
+    width: 500px;
+    border-radius: 5px;
+    color: white;
+}
+
+.clicked {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    margin-left: -250px;
+    text-align: center;
+}
+
+hr.seperation {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}

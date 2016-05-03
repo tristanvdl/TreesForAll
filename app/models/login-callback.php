@@ -1,8 +1,6 @@
 <?php
 
 require_once 'vendor/autoload.php';
-
-
 include 'facebook.php';
 
 $helper = $fb->getRedirectLoginHelper();
@@ -22,11 +20,6 @@ if (isset($accessToken)) {
 }
 $user = $response->getGraphUser();
 
-$name = $user['first_name'];
-header('location:index.php?action=onepage&name='. $name .'');
-
-
-
-
+$name = $user['name'];
+header('location:index.php?action=onepage&name=' . $name . '');
 ?>
-

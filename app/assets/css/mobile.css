@@ -1,0 +1,132 @@
+/* MOBILE */
+
+@media screen and (max-width: 1000px) {
+
+    .text h3 {
+        font-size: 15px !important;
+    }
+
+    .text {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 60px;
+    }
+
+    .image img {
+        width: 210px;
+        height: 210px;
+        border-radius: 105px;
+        margin-top: 60px;
+    }
+
+    .imageSpecial img {
+        width: 210px;
+        height: 210px;
+        border-radius: 105px;
+        float: right;
+        margin-top: 60px;
+    }
+
+    .circle {
+        position: absolute;
+        top: 170px;
+        right: -18px;
+        display: block;
+        background-color: #00A8EF;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        padding: 0;
+    }
+
+    .facts-text h3 {
+        font-size: 15px;
+    }
+
+    .imageBoy img {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        float: right;
+        margin-top: 60px;
+    }
+
+    .textBoy {
+        margin-left: -20px;
+        margin-top: 40px;
+        margin-right: 20px;
+        background-color: #00A8EF;
+        padding: 20px;
+    }
+
+    .textBoy h3 {
+        font-size: 20px;
+        color: white;
+    }
+
+    .facts {
+        margin-bottom: 30px;
+    }
+
+    .line-container-white:before {
+        display: none;
+    }
+
+    .button {
+        margin-top: 20px;
+    }
+
+    .line {
+        width: 80%;
+        color: white;
+        height: 5px;
+        margin-top: 40px
+    }
+
+    .trees-amount {
+        font-size: 25px;
+    }
+
+    .logo-tree {
+        margin-left: 40px;
+    }
+
+    .logo-tree img {
+        width: 175px;
+    }
+
+    .story-login {
+        width: 500px;
+        margin-left: -150px;
+    }
+
+    .child-login img {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+    }
+
+    .child-login p {
+        margin-right: 50px;
+        margin-top: -69px;
+        font-family: Firasans;
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1280px) {
+    .text h3 {
+        font-size: 28px !important;
+    }
+
+    .text {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 60px;
+    }
+
+    .line {
+        display: none;
+    }
+}

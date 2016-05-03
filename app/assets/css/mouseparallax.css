@@ -1,7 +1,7 @@
-/* 
+/*
 Mouse Parallax
 ==============
-This is just initialization so that your background area is not hidden on page load.  Apply this class to elements you will use with $(element).mouseParallax();  
+This is just initialization so that your background area is not hidden on page load.  Apply this class to elements you will use with $(element).mouseParallax();
 
 Or not!  You can use mouseParallax on an element without this class and specify all the styles yourself, if you prefer.
 
@@ -9,15 +9,15 @@ I went with "fixed," but "absolute" positioning also works, depending on the app
 */
 
 .mouse-bg {
-	left: 0;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	position: fixed;
-	z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+    z-index: -1;
 }
 
 #background {
-	background-image: url('../../images/bg.jpg');
-	background-size: cover;
+    background-image: url('../../images/bg2.JPG');
+    background-size: cover;
 }

@@ -11,4 +11,4 @@ while ($tree = $resultGetTrees->fetch_assoc()) {
     $treeList[] = $tree;
 }
 
-
+$finalArray = array_reverse($treeList);
