@@ -9,6 +9,7 @@ $action = (empty($_GET['action'])) ? '' : $_GET['action'];
 switch ($action) {
     case 'login':
         include 'app/models/login-callback.php';
+        include 'app/models/check.php';
         include 'app/models/Upload.php';
         break;
 
