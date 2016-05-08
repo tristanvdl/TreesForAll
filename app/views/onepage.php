@@ -1,6 +1,9 @@
 <?php
-  $name_full = $_GET['name'];
-  $name_final = explode(" ", $name_full);
+    $name_full = $_SESSION['name'];
+    if ($name_full == '') {
+        header('location:index.php');
+    }
+    $name_final = explode(" ", $name_full);
  ?>
 
 <span class="donate-button-parent">
@@ -17,7 +20,7 @@
                 </div>
                 <div class="welcome-text">
                     <h3>
-                        <div class="name">Hoi <?php echo $name_final[0]; ?>!</div>
+                        <div class="name">Hoi <?php echo $name_final[0];  ?>!</div>
                         <div class='name-jose'>Mijn naam is Jose.</div><br> Leuk dat je de tijd neemt om mijn verhaal te
                         lezen.<br>Als je naar beneden
                         scrollt zal ik je meer vertellen.
@@ -60,7 +63,7 @@
                         <span class="circle"></span>
                         <div class="text text2">
                             <h3><br><br>Het gebied dreigt steeds verder aan getast te worden, door ontbossing en
-                              klimaatverandering.<br> In het verleden kwam dit door grootschalige houtkap en
+                              klimaatverandering.<br><br> In het verleden kwam dit door grootschalige houtkap en
                               tegenwoordig wordt dit nog steeds veroorzaakt door illegale activiteiten.
                             </h3>
                         </div>
@@ -153,7 +156,6 @@
                         </div>
                     </div>
                     <div class="timeline-item">
-
                         <div class="textBoy">
                             <h3>Nou <?php echo $name_final[0]; ?>, Wat zeg je ervan om nog meer mensen zo'n kans te geven
                                 zoals ik heb gehad?<br>Alle kleine beetjes helpen en voor maar 5 euro koop je al een boom en
@@ -176,7 +178,7 @@
                 </div>
                 <div class="virtual">
                     <form action="index.php?action=virtual-forrest" method="post">
-                        <input type="hidden" name="username" value="<?php echo $_GET['name'] ?>">
+                        <input type="hidden" name="username" value="<?php echo $_SESSION['name'] ?>">
                         <input class="button-virtual" type="submit" value="Plant een virtuele boom!">
                     </form>
                 </div>

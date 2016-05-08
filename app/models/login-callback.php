@@ -21,5 +21,6 @@ if (isset($accessToken)) {
 $user = $response->getGraphUser();
 
 $name = $user['name'];
-header('location:index.php?action=onepage&name=' . $name . '');
+$_SESSION['name'] = $name;
+header('location:index.php?action=onepage');
 ?>

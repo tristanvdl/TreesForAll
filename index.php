@@ -13,7 +13,6 @@ switch ($action) {
         break;
 
     case 'onepage':
-        $name = (empty($_POST['username'])) ? '' : $_POST['username'];
         include 'app/views/onepage.php';
         break;
 
