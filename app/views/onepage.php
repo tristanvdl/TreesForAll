@@ -48,8 +48,7 @@
                         <div class="text text1">
                             <h3><br>Hallo, ik ben Jose. Ik woon samen met mijn ouders en mijn broertjes en zusjes in
                                 het gebied aan de oostelijke kant van de Andes, waar de bergen overgaan in het
-                                Amazonebekken.<br><br> Ik werk samen met mijn familie op de boerderij, wij hebben
-                                vooral fruitbomen op ons land staan.
+                                Amazonebekken.<br><br> Mijn familie heeft een boerderij, we hebben vooral fruitbomen op ons land staan.
                             </h3>
                         </div>
                     </div>
@@ -109,13 +108,7 @@
                     <h1>Wist je dat...</h1>
                 </div>
                 <div class="facts-text">
-                    <h3>- Treesforall al sinds 2008 voor 206 hectare natuurbos heeft gezorgd? <br><br>
-                        - Treesforall ervoor heeft gezorgd dat er al 50 hectare gebruiksbos is aangeplant? <br><br>
-                        - Dankzij Treesforall jongeren een kans op een studiebeurs hebben en daardoor ook meer kans op
-                        een baan? <br><br>
-                        - Ja door het steunen van Treesforall helpt aan een beter klimaat en dus ook aan de werkloosheid
-                        in deze landen? <br><br>
-                        - U het Project gebied met uw relaties kunt bezoeken?<br><br>
+                    <h3>- U het Project gebied met uw relaties kunt bezoeken?<br><br>
                         - Het projectgebied zich uitstrekt over verschillende deelgebieden in de departementen Beni, La Paz, Cochabamba en Santa Cruz?
                     </h3>
                 </div>
@@ -157,10 +150,10 @@
                     </div>
                     <div class="timeline-item">
                         <div class="textBoy">
-                            <h3>Nou <?php echo $name_final[0]; ?>, Wat zeg je ervan om nog meer mensen zo'n kans te geven
-                                zoals ik heb gehad?<br>Alle kleine beetjes helpen en voor maar 5 euro koop je al een boom en
-                                steun je ons!<br>
-                                Lees daarom hieronder nog even verder.</h3>
+                            <h3>Beste <?php echo $name_final[0]; ?>.
+                                Hopelijk vond je mijn verhaal inspirerend en wil je ook bijdragen.
+                                Alle kleine beetje helpen en voor maar 5 euro koop je al een boom en steun je ons!
+                                <br><br>Kijk hieronder naar de mogelijkheden.</h3>
                         </div>
                     </div>
                 </div>
@@ -186,7 +179,7 @@
             <hr class="line">
             <div class="col-lg-6">
                 <div class="header-donate">
-                    <h3>Bezoek onze website en doneer zodat er<br> een echte boom wordt geplant in een echt bos.</h3>
+                    <h3>Bezoek onze website en plant een echte boom in een echt bos</h3>
                 </div>
                 <div class="real">
                     <form action="https://www.treesforall.nl/winkelwagen.html" method="post">
