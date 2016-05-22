@@ -3,7 +3,7 @@
 ?>
 <section class="upper">
     <div class="logo-tree">
-        <a href="index.php?action=onepage&name=<?php echo $name ?>"><img src="app/images/logo2.jpg" alt=""/></a>
+        <a href="index.php?action=onepage"><img src="app/images/logo2.jpg" alt=""/></a>
         <span class="trees-amount">Geplante bomen: <?php echo $rows; ?></span>
     </div>
     <?php

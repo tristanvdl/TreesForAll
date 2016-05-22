@@ -26,6 +26,10 @@
     color: white;
 }
 
+.button-forrest:hover {
+    background-color: #005477;
+}
+
 .image-tree img {
     width: 250px;
 }
@@ -66,6 +70,10 @@
     text-decoration: none;
 }
 
+.tree-clicked a:hover {
+    background-color: #005477;
+}
+
 .button-forrest-clicked {
     font-family: Firasans;
     font-weight: bold;
@@ -79,6 +87,23 @@
     width: 500px;
     border-radius: 5px;
     color: white;
+}
+
+.clicked a {
+    font-family: Firasans;
+    font-weight: bold;
+    text-align: center;
+    font-size: 43px;
+    padding: 15px;
+    background-color: #F7A814;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.clicked a:hover {
+    background-color: #005477;
 }
 
 .clicked {
