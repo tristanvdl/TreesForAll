@@ -170,10 +170,7 @@
                     <h3>Plant een virtuele boom in ons virtuele bos<br>en zie hoeveel mensen je al zijn voorgegaan!</h3>
                 </div>
                 <div class="virtual">
-                    <form action="index.php?action=virtual-forrest" method="post">
-                        <input type="hidden" name="username" value="<?php echo $_SESSION['name'] ?>">
-                        <input class="button-virtual" type="submit" value="Plant een virtuele boom!">
-                    </form>
+                    <a href="?action=virtual-forrest">Plant een virtuele boom</a>
                 </div>
             </div>
             <hr class="line">
@@ -182,9 +179,7 @@
                     <h3>Bezoek onze website en plant een echte boom in een echt bos</h3>
                 </div>
                 <div class="real">
-                    <form action="https://www.treesforall.nl/winkelwagen.html" method="post">
-                        <input class="button-virtual" type="submit" value="Plant een echte boom!">
-                    </form>
+                    <a href="https://www.treesforall.nl/winkelwagen.html">Plant een echte boom</a>
                 </div>
             </div>
             <div class="col-lg-12">

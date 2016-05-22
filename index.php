@@ -18,14 +18,14 @@ switch ($action) {
         break;
 
     case 'virtual-forrest':
-        $name = (empty($_POST['username'])) ? '' : $_POST['username'];
+        $name = (empty($_SESSION['name'])) ? '' : $_SESSION['name'];
         include 'app/models/check.php';
         include 'app/models/getTree.php';
         include 'app/views/virtual-forrest.php';
         break;
 
     case 'upload-tree':
-        $name = (empty($_POST['username'])) ? '' : $_POST['username'];
+        $name = (empty($_SESSION['name'])) ? '' : $_SESSION['name'];
         include 'app/models/check.php';
         include 'app/models/trees.php';
         break;
